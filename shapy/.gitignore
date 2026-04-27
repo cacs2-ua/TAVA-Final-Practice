@@ -1,0 +1,186 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# ============================================================
+# Virtual environments
+# ============================================================
+.venv/
+venv/
+env/
+ENV/
+*/.venv/
+*/venv/
+*/env/
+
+# ============================================================
+# Jupyter / VS Code
+# ============================================================
+.ipynb_checkpoints/
+.vscode/*
+!.vscode/settings.json
+*.code-workspace
+
+# Windows/WSL metadata
+*:Zone.Identifier
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Logs
+# ============================================================
+*.log
+logs/
+wandb/
+mlruns/
+tensorboard/
+lightning_logs/
+runs/
+
+# ============================================================
+# Large ML artifacts: checkpoints, weights, models
+# ============================================================
+*.ckpt
+*.pth
+*.pt
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.onnx
+*.h5
+*.hdf5
+*.safetensors
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# ============================================================
+# Datasets and downloaded assets
+# ============================================================
+data/
+datasets/
+dataset/
+downloads/
+assets/
+checkpoints/
+pretrained/
+pretrained_models/
+trained_models/
+models/
+body_models/
+utility_files/
+expose_release/
+
+# Also ignore these folders when they appear inside each method
+*/data/
+*/datasets/
+*/dataset/
+*/downloads/
+*/assets/
+*/checkpoints/
+*/pretrained/
+*/pretrained_models/
+*/trained_models/
+*/models/
+*/body_models/
+*/utility_files/
+*/expose_release/
+
+# ============================================================
+# SMPL / SMPL-X protected model files
+# Never upload these to GitHub.
+# ============================================================
+SMPL*.pkl
+SMPL*.npz
+SMPLX*.pkl
+SMPLX*.npz
+MANO*.pkl
+MANO*.npz
+FLAME*.pkl
+FLAME*.npz
+J_regressor*.npy
+*_regressor*.npy
+
+# ============================================================
+# Generated meshes, visualizations and inference outputs
+# ============================================================
+outputs/
+output/
+results/
+result/
+predictions/
+prediction/
+rendered/
+renders/
+visualizations/
+vis/
+samples/shapy_fit/
+samples/virtual_measurements/
+
+*/outputs/
+*/output/
+*/results/
+*/result/
+*/predictions/
+*/prediction/
+*/rendered/
+*/renders/
+*/visualizations/
+*/vis/
+
+*.obj
+*.ply
+*.stl
+*.glb
+*.gltf
+*.fbx
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.gif
+
+# ============================================================
+# Docker / local build cache
+# ============================================================
+.docker/
+docker_cache/
+
+# Keep Dockerfiles trackable
+!Dockerfile
+!Dockerfile.*
+!*.dockerfile
+
+# ============================================================
+# Environment/config files with secrets
+# ============================================================
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Temporary files
+# ============================================================
+tmp/
+temp/
+.cache/
+.cache*/
+*.tmp
+*.bak
+*.swp
+*.swo
