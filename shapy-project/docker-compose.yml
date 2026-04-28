@@ -1,0 +1,26 @@
+services:
+  shapy:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: shapy-cu102-ubuntu18:latest
+    container_name: shapy-cu102
+    working_dir: /workspace
+    shm_size: "8gb"
+    ipc: host
+    ports:
+      - "8888:8888"
+    volumes:
+      - ../workspace:/workspace
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility,graphics
+      - PYOPENGL_PLATFORM=egl
+      - CUDA_HOME=/usr/local/cuda
+      - SHAPY_DIR=/workspace/shapy
+      - PYTHONPATH=/workspace/shapy:/workspace/shapy/attributes
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
