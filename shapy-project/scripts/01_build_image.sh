@@ -1,5 +1,14 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Run this in WSL Ubuntu 20.04 from the root of this package.
+# SCRIPT: Build the SHAPY Docker image from the current project root.
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
+
+cd "${ROOT_DIR}"
+
+echo "[INFO] Project root: ${ROOT_DIR}"
+echo "[INFO] Building Docker image: shapy-cu102-ubuntu18:latest"
+
 docker compose build shapy

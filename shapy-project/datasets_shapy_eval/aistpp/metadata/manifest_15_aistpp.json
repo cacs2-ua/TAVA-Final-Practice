@@ -1,0 +1,122 @@
+[
+  {
+    "index": 0,
+    "aistpp_sequence": "gBR_sBM_cAll_d04_mBR0_ch01",
+    "camera": "c01",
+    "video_name": "gBR_sBM_c01_d04_mBR0_ch01",
+    "url": "https://aistdancedb.ongaaccel.jp/v1.0.0/video/10M/gBR_sBM_c01_d04_mBR0_ch01.mp4",
+    "video_path": "datasets_shapy_eval/aistpp/videos/00_gBR_sBM_c01_d04_mBR0_ch01.mp4"
+  },
+  {
+    "index": 1,
+    "aistpp_sequence": "gBR_sBM_cAll_d04_mBR0_ch02",
+    "camera": "c01",
+    "video_name": "gBR_sBM_c01_d04_mBR0_ch02",
+    "url": "https://aistdancedb.ongaaccel.jp/v1.0.0/video/10M/gBR_sBM_c01_d04_mBR0_ch02.mp4",
+    "video_path": "datasets_shapy_eval/aistpp/videos/01_gBR_sBM_c01_d04_mBR0_ch02.mp4"
+  },
+  {
+    "index": 2,
+    "aistpp_sequence": "gBR_sBM_cAll_d04_mBR0_ch03",
+    "camera": "c01",
+    "video_name": "gBR_sBM_c01_d04_mBR0_ch03",
+    "url": "https://aistdancedb.ongaaccel.jp/v1.0.0/video/10M/gBR_sBM_c01_d04_mBR0_ch03.mp4",
+    "video_path": "datasets_shapy_eval/aistpp/videos/02_gBR_sBM_c01_d04_mBR0_ch03.mp4"
+  },
+  {
+    "index": 3,
+    "aistpp_sequence": "gBR_sBM_cAll_d04_mBR0_ch04",
+    "camera": "c01",
+    "video_name": "gBR_sBM_c01_d04_mBR0_ch04",
+    "url": "https://aistdancedb.ongaaccel.jp/v1.0.0/video/10M/gBR_sBM_c01_d04_mBR0_ch04.mp4",
+    "video_path": "datasets_shapy_eval/aistpp/videos/03_gBR_sBM_c01_d04_mBR0_ch04.mp4"
+  },
+  {
+    "index": 4,
+    "aistpp_sequence": "gBR_sBM_cAll_d04_mBR0_ch05",
+    "camera": "c01",
+    "video_name": "gBR_sBM_c01_d04_mBR0_ch05",
+    "url": "https://aistdancedb.ongaaccel.jp/v1.0.0/video/10M/gBR_sBM_c01_d04_mBR0_ch05.mp4",
+    "video_path": "datasets_shapy_eval/aistpp/videos/04_gBR_sBM_c01_d04_mBR0_ch05.mp4"
+  },
+  {
+    "index": 5,
+    "aistpp_sequence": "gBR_sBM_cAll_d04_mBR0_ch06",
+    "camera": "c01",
+    "video_name": "gBR_sBM_c01_d04_mBR0_ch06",
+    "url": "https://aistdancedb.ongaaccel.jp/v1.0.0/video/10M/gBR_sBM_c01_d04_mBR0_ch06.mp4",
+    "video_path": "datasets_shapy_eval/aistpp/videos/05_gBR_sBM_c01_d04_mBR0_ch06.mp4"
+  },
+  {
+    "index": 6,
+    "aistpp_sequence": "gBR_sBM_cAll_d04_mBR0_ch09",
+    "camera": "c01",
+    "video_name": "gBR_sBM_c01_d04_mBR0_ch09",
+    "url": "https://aistdancedb.ongaaccel.jp/v1.0.0/video/10M/gBR_sBM_c01_d04_mBR0_ch09.mp4",
+    "video_path": "datasets_shapy_eval/aistpp/videos/06_gBR_sBM_c01_d04_mBR0_ch09.mp4"
+  },
+  {
+    "index": 7,
+    "aistpp_sequence": "gBR_sBM_cAll_d04_mBR1_ch01",
+    "camera": "c01",
+    "video_name": "gBR_sBM_c01_d04_mBR1_ch01",
+    "url": "https://aistdancedb.ongaaccel.jp/v1.0.0/video/10M/gBR_sBM_c01_d04_mBR1_ch01.mp4",
+    "video_path": "datasets_shapy_eval/aistpp/videos/07_gBR_sBM_c01_d04_mBR1_ch01.mp4"
+  },
+  {
+    "index": 8,
+    "aistpp_sequence": "gBR_sBM_cAll_d04_mBR1_ch02",
+    "camera": "c01",
+    "video_name": "gBR_sBM_c01_d04_mBR1_ch02",
+    "url": "https://aistdancedb.ongaaccel.jp/v1.0.0/video/10M/gBR_sBM_c01_d04_mBR1_ch02.mp4",
+    "video_path": "datasets_shapy_eval/aistpp/videos/08_gBR_sBM_c01_d04_mBR1_ch02.mp4"
+  },
+  {
+    "index": 9,
+    "aistpp_sequence": "gBR_sBM_cAll_d04_mBR2_ch01",
+    "camera": "c01",
+    "video_name": "gBR_sBM_c01_d04_mBR2_ch01",
+    "url": "https://aistdancedb.ongaaccel.jp/v1.0.0/video/10M/gBR_sBM_c01_d04_mBR2_ch01.mp4",
+    "video_path": "datasets_shapy_eval/aistpp/videos/09_gBR_sBM_c01_d04_mBR2_ch01.mp4"
+  },
+  {
+    "index": 10,
+    "aistpp_sequence": "gBR_sBM_cAll_d04_mBR2_ch02",
+    "camera": "c01",
+    "video_name": "gBR_sBM_c01_d04_mBR2_ch02",
+    "url": "https://aistdancedb.ongaaccel.jp/v1.0.0/video/10M/gBR_sBM_c01_d04_mBR2_ch02.mp4",
+    "video_path": "datasets_shapy_eval/aistpp/videos/10_gBR_sBM_c01_d04_mBR2_ch02.mp4"
+  },
+  {
+    "index": 11,
+    "aistpp_sequence": "gBR_sBM_cAll_d04_mBR3_ch01",
+    "camera": "c01",
+    "video_name": "gBR_sBM_c01_d04_mBR3_ch01",
+    "url": "https://aistdancedb.ongaaccel.jp/v1.0.0/video/10M/gBR_sBM_c01_d04_mBR3_ch01.mp4",
+    "video_path": "datasets_shapy_eval/aistpp/videos/11_gBR_sBM_c01_d04_mBR3_ch01.mp4"
+  },
+  {
+    "index": 12,
+    "aistpp_sequence": "gBR_sBM_cAll_d04_mBR3_ch02",
+    "camera": "c01",
+    "video_name": "gBR_sBM_c01_d04_mBR3_ch02",
+    "url": "https://aistdancedb.ongaaccel.jp/v1.0.0/video/10M/gBR_sBM_c01_d04_mBR3_ch02.mp4",
+    "video_path": "datasets_shapy_eval/aistpp/videos/12_gBR_sBM_c01_d04_mBR3_ch02.mp4"
+  },
+  {
+    "index": 13,
+    "aistpp_sequence": "gBR_sBM_cAll_d05_mBR0_ch01",
+    "camera": "c01",
+    "video_name": "gBR_sBM_c01_d05_mBR0_ch01",
+    "url": "https://aistdancedb.ongaaccel.jp/v1.0.0/video/10M/gBR_sBM_c01_d05_mBR0_ch01.mp4",
+    "video_path": "datasets_shapy_eval/aistpp/videos/13_gBR_sBM_c01_d05_mBR0_ch01.mp4"
+  },
+  {
+    "index": 14,
+    "aistpp_sequence": "gBR_sBM_cAll_d05_mBR0_ch02",
+    "camera": "c01",
+    "video_name": "gBR_sBM_c01_d05_mBR0_ch02",
+    "url": "https://aistdancedb.ongaaccel.jp/v1.0.0/video/10M/gBR_sBM_c01_d05_mBR0_ch02.mp4",
+    "video_path": "datasets_shapy_eval/aistpp/videos/14_gBR_sBM_c01_d05_mBR0_ch02.mp4"
+  }
+]

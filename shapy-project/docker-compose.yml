@@ -1,26 +1,34 @@
 services:
   shapy:
-    build:
-      context: ..
-      dockerfile: docker/Dockerfile
     image: shapy-cu102-ubuntu18:latest
-    container_name: shapy-cu102
+    container_name: shapy-cpu
+
     working_dir: /workspace
     shm_size: "8gb"
     ipc: host
+
     ports:
       - "8888:8888"
+
     volumes:
-      - ../workspace:/workspace
+      - ./workspace:/workspace
+      - ./scripts:/workspace/scripts:ro
+      - ./notebooks:/workspace/notebooks
+
     environment:
-      - NVIDIA_VISIBLE_DEVICES=all
-      - NVIDIA_DRIVER_CAPABILITIES=compute,utility,graphics
-      - PYOPENGL_PLATFORM=egl
-      - CUDA_HOME=/usr/local/cuda
-      - SHAPY_DIR=/workspace/shapy
-      - PYTHONPATH=/workspace/shapy:/workspace/shapy/attributes
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - capabilities: [gpu]
+      CUDA_VISIBLE_DEVICES: ""
+      NVIDIA_VISIBLE_DEVICES: none
+      FORCE_CUDA: "0"
+      PYOPENGL_PLATFORM: egl
+      SHAPY_DIR: /workspace/shapy
+      PYTHONPATH: /workspace/shapy:/workspace/shapy/attributes
+      SHAPY_DEVICE: cpu
+
+    command: >
+      bash -lc "jupyter lab
+      --ip=0.0.0.0
+      --port=8888
+      --no-browser
+      --allow-root
+      --NotebookApp.token=shapy
+      --NotebookApp.password=''"
